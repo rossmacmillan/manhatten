@@ -15,6 +15,7 @@
 		245575B21FD99F54002392F8 /* manhattenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245575B11FD99F54002392F8 /* manhattenTests.swift */; };
 		245575BD1FD99F54002392F8 /* manhattenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245575BC1FD99F54002392F8 /* manhattenUITests.swift */; };
 		B91F608A1FE1635E00638E5A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91F60891FE1635E00638E5A /* CollectionViewController.swift */; };
+		B91F608C1FE16A1900638E5A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91F608B1FE16A1900638E5A /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		245575BC1FD99F54002392F8 /* manhattenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manhattenUITests.swift; sourceTree = "<group>"; };
 		245575BE1FD99F54002392F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91F60891FE1635E00638E5A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B91F608B1FE16A1900638E5A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				2455759C1FD99F54002392F8 /* AppDelegate.swift */,
-				2455759E1FD99F54002392F8 /* ViewController.swift */,
 				245575A01FD99F54002392F8 /* Main.storyboard */,
+				2455759E1FD99F54002392F8 /* ViewController.swift */,
+				B91F608B1FE16A1900638E5A /* CollectionViewCell.swift */,
 				B91F60891FE1635E00638E5A /* CollectionViewController.swift */,
 				245575A31FD99F54002392F8 /* Assets.xcassets */,
 				245575A51FD99F54002392F8 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				B91F608A1FE1635E00638E5A /* CollectionViewController.swift in Sources */,
 				2455759F1FD99F54002392F8 /* ViewController.swift in Sources */,
+				B91F608C1FE16A1900638E5A /* CollectionViewCell.swift in Sources */,
 				2455759D1FD99F54002392F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
